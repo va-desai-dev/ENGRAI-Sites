@@ -105,7 +105,7 @@ ENGRAI may suspend or terminate your license upon notice if we discontinue the S
 ### 6.4 Effect of Termination
 Upon termination, all rights granted to you shall cease, and you shall immediately stop using the Software and delete all copies in your possession or control. Termination shall not relieve you of any obligation accrued prior to termination, and shall not entitle you to a refund except as required by applicable law or the policies of the platform through which you obtained the Software.
 
-## 6.5 Data After Termination
+### 6.5 Data After Termination
 Your Content stored locally on your Device *or* across your connected iCloud devices. This data remains under your control & stewardship. You should note, however, that removing the Software may cause locally stored data to be deleted, depending on your Device, its settings, and/or iCloud account configuration. You are therefore advised to export or back up any Your Content that you wish to retain before removing the Software. Information held by third-party providers is governed by their respective terms and policies.
 
 ### 6.6 Survival

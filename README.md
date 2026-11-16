@@ -19,34 +19,6 @@ shaping how they behave, and carrying context across conversations.
 
 </div>
 
----
-
-## Download for macOS
-
-The current macOS build is distributed as a **Developer ID-signed and Apple-notarized DMG**.
-
-1. Open [Releases](https://github.com/va-desai-dev/ENGRAI/releases) and choose the version marked **Latest**.
-2. Download its `.dmg` file under **Assets**.
-3. Open it and drag **ENGRAI** into **Applications**.
-4. Launch ENGRAI and connect the model endpoint you want to use.
-
-ENGRAI requires **macOS 26 or later**. You should not need to disable Gatekeeper, remove quarantine attributes, or use a security bypass. If macOS asks you to bypass a warning, delete that copy and download the DMG again from this repository.
-
-### Verifying Application Security
-
-To confirm this build is officially signed and notarized by Apple before launching it for the first time, open your terminal and verify the application bundle directly:
-
-```bash
-spctl --assess --type execute --verbose=4 /Applications/ENGRAI.app
-```
-
-When verified, the system will return:
-`accepted (source=Notarized Developer ID)`
-
-
-Gatekeeper should report that the artifact is accepted and identify its source as a notarized Developer ID.
-
----
 
 ## What is ENGRAI?
 
@@ -58,7 +30,7 @@ The app turns structured character and persona settings into a predictable promp
   <img src="ENGRAI_Board.jpg" alt="An ENGRAI character conversation" width="100%">
 </p>
 
-### Built around continuity
+### Consistency in Sessions
 
 - **Detailed character construction** — shape identity, appearance, temperament, social behavior, priorities, voice, and other context through structured controls.
 - **Session memory** — maintain a durable memory ledger for facts, preferences, boundaries, unresolved threads, and relationship continuity.
@@ -66,7 +38,7 @@ The app turns structured character and persona settings into a predictable promp
 - **Group conversations** — preserve speaker-specific knowledge and relationships while withholding private interior context from other characters.
 - **Inspectable prompting** — character traits, memories, scenes, personas, and final instructions enter the prompt in a published, deterministic order.
 
-### Your models, your choice
+### Your Choice & Freedom
 
 ENGRAI can connect directly to:
 
@@ -77,9 +49,7 @@ ENGRAI can connect directly to:
 
 Chat, summarization, and image work can be assigned to different connections. Each connection keeps its own model name, endpoint, API format, and optional sampler overrides.
 
----
-
-## Privacy by construction
+## Private by Design
 
 ENGRAI has no developer-operated account system, API proxy, analytics service, advertising SDK, or content database. Requests travel directly from the app to the model provider or local endpoint you configure.
 
@@ -87,9 +57,7 @@ Your characters and conversations are local-first. If you enable iCloud synchron
 
 API access is not bundled with the app. Any provider fees, limits, and acceptable-use rules come from the provider you choose.
 
----
-
-## Connect a model
+## Connecting an LLM
 
 Create a connection in ENGRAI with:
 
@@ -111,7 +79,14 @@ API key:    <blank>
 
 Always use the endpoint and model identifier published by your provider. ENGRAI is provider-agnostic and does not endorse or supply access to any particular model.
 
----
+## Betas & Downloading
+> [!IMPORTANT]
+> The TestFlight beta program is currently at the same build iteration as the release. We recommend you to use the App Store release version rather than enrolling in the beta program. We will update this notice to keep you noitified when a new feature update is presented for beta testing.
+
+The current and latest release of ENGRAI is available on the App Store for macOS, iOS and iPadOS. Alternatively, if you wish to join the open-beta for experimental features; use our [TestFlight public beta invite](https://testflight.apple.com/join/hAT8qjbA).
+
+> [!CAUTION]
+> ENGRAI requires **macOS/iOS 26 or later**. Only join and participate in the TestFlight beta programs if you seek to aid in identifying bugs and enhancing release build experiences. Please note that beta builds are not guaranteed to work reliably and may also risk data corruption and loss from any feature rollbacks.
 
 ## Documentation
 
@@ -125,8 +100,6 @@ The reference material in [`Documentation.docc`](Documentation.docc/) explains t
 | [Slider reading reference](Documentation.docc/SliderReadingReference.md) | How structured character values become natural-language guidance |
 | [Summarizer prompt reference](Documentation.docc/SummarizerPromptReference.md) | Memory-ledger updates and relationship deltas |
 | [Terms of Service](https://github.com/va-desai-dev/ENGRAI-Release/blob/main/TERMS.md) | Eligibility, permitted use, privacy, limitations, and support |
-
----
 
 ## Important notes
 

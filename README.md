@@ -7,14 +7,15 @@
 A local-first, bring-your-own-model client for creating persistent characters,<br>
 shaping how they behave, and carrying context across conversations.
 
-[![Download for macOS](https://img.shields.io/badge/Download-for%20macOS-black?style=for-the-badge&logo=apple)](https://github.com/va-desai-dev/ENGRAI-Release/releases/tag/v1.0.0)
-
 [![macOS 26+](https://img.shields.io/badge/macOS-26%2B-111111?logo=apple)](https://github.com/va-desai-dev/ENGRAI/releases)
 ![Apple notarized](https://img.shields.io/badge/Apple-notarized-2da44e)
 ![Bring your own key](https://img.shields.io/badge/models-bring_your_own_key-6f42c1)
 ![18+](https://img.shields.io/badge/age-18%2B-b42318)
 
-**[Download for macOS](https://github.com/va-desai-dev/ENGRAI/releases)** · [Read the documentation](#documentation) · [Report an issue](https://github.com/va-desai-dev/ENGRAI/issues)
+<span><a href="https://apps.apple.com/us/app/engrai/id6784815034?itscg=30200&itsct=apps_box_badge&mttnsubad=6784815034" style="display: inline-block;"><img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/en-us?releaseDate=1788393600" alt="Download on the App Store" style="height: 60px; vertical-align: middle; object-fit: contain;" /></a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<span><a href="https://apps.apple.com/us/app/engrai/id6784815034?itscg=30200&itsct=apps_box_badge&mttnsubad=6784815034" style="display: inline-block;"><img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-mac-app-store/black/en-us?releaseDate=1788393600" alt="Download on the App Store" style="height: 60px; vertical-align: middle; object-fit: contain;" /></a></span>
+
+[Read the documentation](#documentation) · [Report an issue](https://github.com/va-desai-dev/ENGRAI/issues)
 
 </div>
 
